@@ -1,21 +1,21 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int add(int i, int j);
 
-/* ƒƒCƒ“ŠÖ” */
+/* ãƒ¡ã‚¤ãƒ³é–¢æ•° */
 int main()
 {
     int sum;
 
-    /* 1‚©‚ç10‚Ü‚Å‰ÁZ‚·‚é */
+    /* 1ã‹ã‚‰10ã¾ã§åŠ ç®—ã™ã‚‹ */
     sum = add(1, 10);
 
-    printf("ŒvZŒ‹‰ÊF%d\n", sum);
+    printf("è¨ˆç®—çµæœï¼š%d\n", sum);
 
     return 0;
 }
 
-/* i‚©‚çj‚Ü‚Å‰ÁZ‚µ‚ÄŒ‹‰Ê‚ğ–ß‚·ŠÖ” */
+/* iã‹ã‚‰jã¾ã§åŠ ç®—ã—ã¦çµæœã‚’æˆ»ã™é–¢æ•° */
 int add(int i, int j)
 {
     int n, sum = 0;

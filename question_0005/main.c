@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+* printf関数 練習課題
+* 問5.「Hello! World」と表示するソースコードを画面に表示してください。
+*/
+
 int main()
 {
 	printf("#include <stdio.h>\n");
