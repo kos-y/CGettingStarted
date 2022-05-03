@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("山田　太郎\n");
+	printf("螻ｱ逕ｰ縲螟ｪ驛蚕n");
 
 	return 0;
 }
